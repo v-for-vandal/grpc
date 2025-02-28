@@ -23,7 +23,7 @@
 
 namespace grpc {
 
-enum StatusCode {
+enum StatusCode : int {
   /// Not an error; returned on success.
   OK = 0,
 
